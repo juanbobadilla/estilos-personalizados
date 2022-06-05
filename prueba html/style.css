@@ -1,0 +1,101 @@
+
+/*input buscador*/
+.input-share{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 500px;
+	border-radius: 30px;
+	background-color: #6c757d;
+	padding: 5px
+}
+
+.input-share > span{
+	font-size: 20px;
+	color: white;
+}
+
+.input-share > input{
+	flex: 1;
+	height: 25px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	padding-left: 10px;
+	margin-right: 10px;
+	background-color: #6c757d;
+	color: white;
+}
+
+/*input file*/
+.input-file{
+	width: 180px;
+	border-radius: 30px;
+	background-color: white;
+}
+
+
+.input-file > label{
+	margin:0;
+}
+
+.input-file-label{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 2px;
+}
+
+input[type="file"] {
+	display: none;
+}
+
+
+.overflow-input-file{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+/*boton*/
+.boton-primary{
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 100%;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/*navbar*/
+.navbar{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-buscador{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navbar-boton{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
